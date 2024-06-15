@@ -467,6 +467,16 @@ section .container {
   background-color: #18d26e;
 }
 
+#skills .row .skil-item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+#skills .row .caption {
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
@@ -650,16 +660,10 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# CUSTOM
+# Certificates
 --------------------------------------------------------------*/
 
-#skills .row .skil-item {
-  vertical-align: top;
-  display: inline-block;
-  text-align: center;
+#certificates .card {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
 }
-
-#skills .row .caption {
-  display: block;
-}
-
