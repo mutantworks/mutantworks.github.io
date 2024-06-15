@@ -6,12 +6,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Meet Charola</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/icons8-code-64.png" rel="icon">
+  <link href="assets/img/icons8-code-64.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -35,7 +33,7 @@
     <div class="container">
 
       <h1><a href="index.html">Meet Charola</a></h1>
-      <h2>I'm a passionate <span>software engineer</span> from India</h2>
+      <h2>I'm a <span id="profession"></span></h2>
 
       <nav id="navbar" class="navbar flex-nowrap flex-row">
         <ul>
@@ -245,7 +243,7 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Professional Experience</h2>
+        <h2>Experience</h2>
       </div>
 
       <div class="row">
@@ -383,16 +381,24 @@
   </section><!-- End Certificates Section -->
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    const typed = new Typed('#profession', {
+      strings: ['software engineer', "backend developer"],
+      typeSpeed: 90,
+      backDelay: 2000,
+      loop: true,
+    });
+  </script>
 
 </body>
 
