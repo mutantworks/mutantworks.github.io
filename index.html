@@ -37,7 +37,7 @@
       <h1><a href="index.html">Meet Charola</a></h1>
       <h2>I'm a passionate <span>software engineer</span> from India</h2>
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar flex-nowrap flex-row">
         <ul>
           <li><a class="nav-link active" href="#header">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
@@ -81,7 +81,7 @@
             I'm a Software Engineer focused on backend development, proficient in Python, C++, JavaScript, PostgreSQL, MongoDB, AWS, and Docker.
           </p>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-12">
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>meetworks144@gmail.com</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <span>linkedin.com/in/meetcharola/</span></li>
@@ -89,6 +89,7 @@
                 <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Tech in Computer Engineering</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>University:</strong> <span>Dharmsinh Desai University, India</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>CGPA:</strong> <span>7.95</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Experience:</strong> <span>3+ years</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
               </ul>
             </div>
@@ -102,7 +103,7 @@
     <div class="skills container">
 
       <div class="section-title">
-        <h2>LEARN MORE ABOUT ME</h2>
+        <h2>More</h2>
       </div>
 
       <div class="row skills-content">
@@ -124,25 +125,25 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-6">
           <div class="icon-box">
             <i class="ri-macbook-line" style="color: #ffbb2c;"></i>
             <h3>Computer Technologies</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
           <div class="icon-box">
             <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
             <h3>Finance & Trading</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
           <div class="icon-box">
             <i class="ri-camera-lens-line" style="color: #e80368;"></i>
             <h3>Photography</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
           <div class="icon-box">
             <i class="ri-body-scan-fill" style="color: #e361ff;"></i>
             <h3>Gymnastics</h3>
@@ -239,8 +240,8 @@
 
   </section><!-- End About Section -->
 
-  <!-- ======= Resume Section ======= -->
-  <section id="experience" class="resume">
+  <!-- ======= Experience Section ======= -->
+  <section id="experience" class="experience">
     <div class="container">
 
       <div class="section-title">
@@ -249,7 +250,7 @@
 
       <div class="row">
         <div class="col-lg-12">
-          <div class="resume-item">
+          <div class="experience-item">
             <h4>Python Developer - Backend Engineer</h4>
             <h5>2023 July - Present</h5>
             <p><em>Beekin Huston, Texas. (Remote, India)</em></p>
@@ -257,7 +258,7 @@
               I have excelled in Python backend development, particularly in predictive AI products where I collaborated closely with data scientists. I significantly contributed to a proprietary rent prediction engine by maintaining and enhancing its compute-intensive components. One of my notable achievements includes implementing a multithreaded async API request mechanism that accelerated operations by up to 5 times. Additionally, I developed a Python script that streamlined data standardization for new clients, slashing client onboarding time by 75%. I automated the dynamic report generation of AI model results, optimizing efficiency in reporting processes. Furthermore, I optimized numerous PostgreSQL queries to enhance performance on tables with millions of records, demonstrating my proficiency in database management. In terms of quality assurance, I wrote comprehensive unit tests using pytest and monkey patching, achieving test coverage of over 85%. Throughout these projects, I utilized Docker and AWS to deploy and manage multiple services, ensuring scalability and robustness in production environments.
             </p>
           </div>
-          <div class="resume-item">
+          <div class="experience-item">
             <h4>Associate Software Developer</h4>
             <h5>2022 May - 2023 June</h5>
             <p><em>FlexTrade Systems Inc Pune, India</em></p>
@@ -265,7 +266,7 @@
               At Flextrade I was deeply involved in software development for Flagship Automatic Order Routing trading algorithms, focusing on EMS and OMS systems for institutional traders. I have actively contributed to breakthrough features in industrial-grade OOP using C++ and Python, including designing and implementing a C++ microservice to track live algorithm progress and interface with frontends. I resolved Static Analysis Issues using HelixQAC, ensuring code quality and compliance. Additionally, I developed a Python script for real-time publishing of analytics data to MongoDB, and a shell script to automate MongoDB client-server connections. I also designed and implemented a Django-based website to auto configure trading setups in production environments. Quality assurance is paramount to my work; I've written comprehensive unit tests utilizing frameworks like gTest, complemented by framework-less mocking techniques. Furthermore, I automated test case generation with a Python script capable of generating over 500 test cases per second, demonstrating my commitment to efficiency and reliability in software development.
             </p>
           </div>
-          <div class="resume-item">
+          <div class="experience-item">
             <h4>Python Developer</h4>
             <h5>2020 December - 2022 April</h5>
             <p><em>Inexture Solutions LLP Ahmedabad, India</em></p>
@@ -279,8 +280,8 @@
     </div>
   </section><!-- End Resume Section -->
 
-  <!-- ======= Services Section ======= -->
-  <section id="skills" class="services">
+  <!-- ======= Skills Section ======= -->
+  <section id="skills" class="skills">
     <div class="container">
 
       <div class="section-title">
@@ -288,98 +289,98 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-python-144.png" alt="Python Programming Language" width="144" height="144">
           <span class="caption">Python</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-c-144.png" alt="C++ Programming Language" width="144" height="144">
           <span class="caption">C++</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-javascript-144.png" alt="JavaScript" width="144" height="144">
           <span class="caption">JavaScript</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-postgresql-144.png" alt="PostgreSQL" width="144" height="144">
           <span class="caption">PostgreSQL</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-mongodb-144.png" alt="MongoDB" width="144" height="144">
           <span class="caption">MongoDB</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-redis-144.png" alt="Redis" width="144" height="144">
           <span class="caption">Redis</span>
         </div>
         
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-docker-144.png" alt="Docker" width="144" height="144">
           <span class="caption">Docker</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-aws-144.png" alt="AWS" width="144" height="144">
           <span class="caption">AWS</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-django-144.png" alt="Django" width="144" height="144">
           <span class="caption">Django</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-flask-128.png" alt="Flask" width="144" height="144">
           <span class="caption">Flask</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-numpy-144.png" alt="Numpy" width="144" height="144">
           <span class="caption">Numpy</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
           <img class="skills-icon" src="assets/img/skills/icons8-html-144.png" alt="Html" width="144" height="144">
           <span class="caption">HTML</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
-          <img class="skills-icon" src="assets/img/skills/icons8-css-144.png" alt="Python Programming Language" width="144" height="144">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
+          <img class="skills-icon" src="assets/img/skills/icons8-css-144.png" alt="Css" width="144" height="144">
           <span class="caption">CSS</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
-          <img class="skills-icon" src="assets/img/skills/icons8-git-144.png" alt="Python Programming Language" width="144" height="144">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
+          <img class="skills-icon" src="assets/img/skills/icons8-git-144.png" alt="Git" width="144" height="144">
           <span class="caption">Git</span>
         </div>
 
-        <div class="col-lg-3 col-md-3 skil-item">
-          <img class="skills-icon" src="assets/img/skills/icons8-postman-96.png" alt="Python Programming Language" width="144" height="144">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6 skil-item">
+          <img class="skills-icon" src="assets/img/skills/icons8-postman-96.png" alt="Postman" width="144" height="144">
           <span class="caption">Postman</span>
         </div>
       </div>
 
     </div>
-  </section><!-- End Services Section -->
+  </section><!-- End Skills Section -->
 
-  <!-- ======= Portfolio Section ======= -->
-  <section id="certificates" class="portfolio">
+  <!-- ======= Certificates Section ======= -->
+  <section id="certificates" class="certificates">
     <div class="container">
 
       <div class="section-title">
         <h2>Certificates</h2>
       </div>
 
-      <div class="row portfolio-container">
+      <div class="row certificates-container">
       </div>
 
     </div>
-  </section><!-- End Portfolio Section -->
+  </section><!-- End Certificates Section -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
